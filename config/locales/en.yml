@@ -31,3 +31,13 @@
 
 en:
   hello: "Hello world"
+  activerecord:
+    # attributes
+    #   critic
+    #     email
+    errors:
+      models:
+        employee:
+          attributes:
+            birth_date:
+              less_than: "you should be older than 18 years ago"

@@ -1,0 +1,7 @@
+<h1>Deparments</h1>
+
+<% @deparments.each do |deparment| %>
+  <div>
+    <p><%= deparment.name %> | employees: (<%= deparment.employees_count %>)</p>
+  </div>
+<% end %>
